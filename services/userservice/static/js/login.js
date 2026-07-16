@@ -14,6 +14,7 @@ function setMessage(text, type) {
 }
 
 function login() {
+    event.preventDefault();
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
