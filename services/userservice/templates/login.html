@@ -17,19 +17,21 @@
                 <p>Warehouse Management System</p>
             </div>
 
-            <div class="form-box">
+            <form class="form-box" onsubmit="login(event)">
                 <label for="username">User ID</label>
                 <input id="username" type="text" placeholder="ID">
 
                 <label for="password">Password</label>
                 <input id="password" type="password" placeholder="PW">
 
-                <button onclick="login()">Login</button>
+                <button type="submit">
+			Login
+		</button>
 
                 <div id="message" class="message"></div>
-            </div>
+            </form>
 
-	    <div class="test-account">
+	    <!--<div class="test-account">
     		<p>Demo Account</p>
 
     		<div class="account-row">
@@ -41,7 +43,7 @@
         	    <span class="role-badge operator">Operator</span>
         	    <span>operator / 1234</span>
     		</div>
- 	    </div>
+		</div--!>
 
         </div>
     </div>
